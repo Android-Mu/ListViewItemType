@@ -7,6 +7,12 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Description：ListView加载不同样式布局
+ * <p>
+ * Created by Mjj on 2016/11/21.
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private ListView listView;

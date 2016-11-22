@@ -9,6 +9,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
+/**
+ * Description：ListView适配器
+ * <p>
+ * Created by Mjj on 2016/11/21.
+ */
+
 public class ListAdapter extends BaseAdapter {
 
     private List<String> contents;
@@ -72,7 +78,7 @@ public class ListAdapter extends BaseAdapter {
         return position % 2;
     }
 
-    static class ViewHolder {
+    class ViewHolder {
         TextView textView;
         ImageView imageView;
     }
